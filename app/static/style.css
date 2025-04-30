@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    margin-bottom: 20px;
+}
+input, textarea {
+    margin: 5px;
+    padding: 5px;
+}
+button {
+    padding: 5px 10px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin: 10px 0;
+}
+.flash {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.flash.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.flash.success {
+    background-color: #d4edda;
+    color: #155724;
+}
