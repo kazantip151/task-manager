@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: karboneyted/task-manager
+  tag: latest
+service:
+  type: NodePort
+  port: 5000
